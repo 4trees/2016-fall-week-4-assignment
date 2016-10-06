@@ -39,6 +39,6 @@ console.log('arr2 is: '+arr2);
 //Hint: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
 var arr3 = arr1.filter(function(el){
     //your code here
-    return !(el%2);   	
+    return el%2;   	
 });
 console.log(arr3);
