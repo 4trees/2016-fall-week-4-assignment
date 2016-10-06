@@ -39,6 +39,7 @@ console.log('arr2 is: '+arr2);
 //Hint: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
 var arr3 = arr1.filter(function(el){
     //your code here
-    return el%2;   	
+    return !(el%2);   
+    //note: odd value is 1\3\5, even value is 2\4\6	
 });
 console.log(arr3);
